@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/llManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/iniciarManutencao"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        
+        <TextView 
+            android:id="@+id/tvNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/plataforma_nome"/>
+        
+        <TextView 
+            android:id="@+id/tvDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descricao"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/plataforma_descricao"/>
+        
+        <TextView 
+            android:id="@+id/tvNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numero"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/plataforma_numero"/>
+        
+        <TextView 
+            android:id="@+id/tvAF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/af"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaAF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/plataforma_af"/>
+        
+        <TextView 
+            android:id="@+id/tvHorimetro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/horimetro"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaHorimetro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/plataforma_horimetro"/>
+
+        <TextView
+            android:id="@+id/tvFotoPlataforma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foto_plataforma"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <ImageView
+            android:id="@+id/ivPlataforma"
+            android:layout_width="431dp"
+            android:layout_height="212dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/plataforma"
+            android:src="@android:drawable/ic_menu_camera" />
+        
+        <TextView 
+            android:id="@+id/tvDescricaoProblema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descricao_problema"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaDescricaoProblema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/plataforma_descricao_problema"/>
+
+        <TextView
+            android:id="@+id/tvFotoProblema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foto_problema"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/ivProblema"
+            android:layout_width="431dp"
+            android:layout_height="212dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/plataforma"
+            android:src="@android:drawable/ic_menu_camera" />
+        
+        <TextView 
+            android:id="@+id/tvPlataformaCausaProblema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/causa_problema"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaCausaProblema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/plataforma_causa_problema"/>
+
+        <TextView
+            android:id="@+id/tvFotoCausa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foto_causa"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <ImageView
+            android:id="@+id/ivCausa"
+            android:layout_width="431dp"
+            android:layout_height="212dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/plataforma"
+            android:src="@android:drawable/ic_menu_camera" />
+        <Button
+            android:id="@+id/bPlataformaADD"
+            android:layout_width="362dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center"
+            android:drawableStart="@android:drawable/ic_menu_add"
+            android:text="@string/plataforma_add"
+            android:textSize="30sp" />
+        
+    </LinearLayout>
+    
+</ScrollView>

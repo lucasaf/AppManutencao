@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <!-- GLOBAIS -->
+    <string name="app_name">RCB Manutenção</string>
+    <string name="action_settings">Opções</string>
+    <string name="tet_sistemas">TeTSistemas</string>
+    <string name="Ligar">Ligar</string>
+    <string name="enviarSMS">Enviar SMS</string>
+    <string name="acharNoMapa">Achar no mapa</string>
+    <string name="enviarEmail">Enviar e-mail</string>
+    <string name="deletar">Deletar</string>
+    
+    <!--  PÁGINA PRINCIPAL (activity_main) -->
+    <string name="manutencao">Manutenção</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="erro_autenticacao">Usuário ou senha inválidos</string>
+
+    <!-- PÁGINA DE MENU E MANU_BAR (activity_menu) -->
+    <string name="menu">Menu Principal</string>
+    <string name="iniciarManutencao">Iniciar Manutenção</string>
+    <string name="minhasManutencoes">Manutenções realizadas</string>
+    <string name="configuracoes">Configurações</string>
+    
+    <!-- PÁGINA DE MANUTENÇÃO (activity_manutencao)-->
+    <string name="plataforma_add">Concluir manutenção</string>
+    <string name="plataforma_tirar_foto">Tirar Foto</string>
+    <string name="plataforma">Plataforma</string>
+    <string name="plataforma_nome">Nome plataforma</string>
+    <string name="plataforma_descricao">Descrição</string>
+    <string name="plataforma_numero">Número</string>
+    <string name="plataforma_af">AF</string>
+    <string name="plataforma_horimetro">Horímetro</string>
+    <string name="plataforma_descricao_problema">Descrição do problema</string>
+    <string name="plataforma_imagem">Imagem da plataforma</string>
+    <string name="plataforma_imagem_problema">Imagem do problema</string>
+    <string name="plataforma_causa_problema">Causa do problema</string>
+    <string name="plataforma_imagem_causa">Imagem da causa problema</string>
+    
+    <string name="nome">Nome</string>
+    <string name="descricao">Descrição</string>
+    <string name="numero">Número</string>
+    <string name="af">AF</string>
+    <string name="horimetro">Horimetro</string>
+    <string name="foto_plataforma">Foto da plataforma</string>
+    <string name="foto_problema">Foto do problema</string>
+    <string name="foto_causa">Foto da causa do problema</string>
+    <string name="descricao_problema">Descrição do problema</string>
+    <string name="causa_problema">Descrição da causa do problema</string>
+    
+    <!-- CLIENT_MAIN -->    
+	<string name="client_label_page">Cadastro de Cliente</string>
+	<string name="client_label_client">Cliente</string>
+	<string name="client_label_name">Nome</string>
+	<string	name="client_label_phone">Telefone</string>
+	<string	name="client_label_email">E-mail</string>
+	<string	name="client_label_address">Endereço</string>
+	<string	name="client_label_number">Número</string>
+	<string	name="client_label_district">Bairro</string>
+	<string	name="client_label_cep">CEP</string>
+	<string	name="client_label_complement">Complemento</string>
+	<string	name="client_label_city">Cidade</string>
+	<string	name="client_label_state">Estado</string>
+	<string	name="client_label_distance">Distância</string>
+
+</resources>
