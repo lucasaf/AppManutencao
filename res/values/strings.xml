@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Nome da APP, usado pelo AndroidManifest -->
+    <string name="app_name">RCB Manutenções [BETA]</string>
+
+    <!-- Strings para itens do menu -->
+    <string name="novo">Novo</string>
+    <string name="mapa">Mapa</string>
+    <string name="mais_opcoes">Mais opções</string>
+    <string name="sincronizar">Sincronizar</string>
+    <string name="provas">Provas</string>
+    <string name="preferencias">Preferências</string>
+    <string name="nome_aluno">Informe o nome do aluno</string>
+    <string name="add_aluno">Adicionar aluno</string>
+    <string name="titulo_formulario">Dados do Aluno</string>
+    <string name="foto_aluno">Foto do Aluno</string>
+    <string name="telefone">Telefone</string>
+    <string name="telefone_hint">Informe o telefone</string>
+    <string name="site">Site</string>
+    <string name="site_hint">Informe o Site</string>
+    <string name="email">E-mail</string>
+    <string name="email_hint">exemplo@gmail.com</string>
+    <string name="endereco">Endereço</string>
+    <string name="endereco_hint">Informe o endereço</string>
+    <string name="nota">Nota</string>
+    <string name="salvar_dados">Salvar Dados</string>
+    <string name="ligar">Ligar</string>
+    <!-- Outras strings aqui... -->
+    
+    <!-- Strings da tela de Detalhes da Prova -->
+    <string name="titulo_provas">Provas</string>
+    <string name="detalhes_prova">Detalhes da Prova</string>
+    <string name="materia">Matéria</string>
+    <string name="data">Data</string>
     
      <!-- GLOBAIS -->
-    <string name="app_name">RCB Manutenção</string>
     <string name="action_settings">Opções</string>
     <string name="tet_sistemas">TeTSistemas</string>
     <string name="Ligar">Ligar</string>

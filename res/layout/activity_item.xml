@@ -1,33 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
 
-<LinearLayout 
-    android:id="@+id/llListaItens"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:drawingCacheQuality="auto" >
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
 
-    <ImageView 
-        android:id="@+id/ivPlataforma"
+    <ImageView
+        android:id="@+id/foto_plataforma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/borda_imagem"
         android:padding="5dp"
-        android:src="@android:drawable/ic_menu_camera"
-        android:contentDescription="@string/plataforma_imagem"/>
-    
-     <TextView 
-            android:id="@+id/tvNome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nome"/>
+        android:src="@drawable/ic_no_image" 
+        android:contentDescription="@string/foto_plataforma"/>
+
+    <TextView
+        android:id="@+id/itemNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
-</ScrollView>

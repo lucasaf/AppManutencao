@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
     <LinearLayout
-        android:id="@+id/llManutencao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
-        
-         <TextView
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -22,20 +24,26 @@
             android:id="@+id/tvNome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nome"/>
+            android:text="@string/nome"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
         
         <EditText 
             android:id="@+id/edPlataformaNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="@string/plataforma_nome"/>
-        
+            android:hint="@string/plataforma_nome">
+
+            <requestFocus android:layout_width="wrap_content" />
+
+        </EditText>
+
         <TextView 
             android:id="@+id/tvDescricao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/descricao"/>
+            android:text="@string/descricao"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
         
         <EditText 
             android:id="@+id/edPlataformaDescricao"
@@ -43,45 +51,6 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:hint="@string/plataforma_descricao"/>
-        
-        <TextView 
-            android:id="@+id/tvNumero"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/numero"/>
-        
-        <EditText 
-            android:id="@+id/edPlataformaNumero"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:hint="@string/plataforma_numero"/>
-        
-        <TextView 
-            android:id="@+id/tvAF"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/af"/>
-        
-        <EditText 
-            android:id="@+id/edPlataformaAF"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"
-            android:hint="@string/plataforma_af"/>
-        
-        <TextView 
-            android:id="@+id/tvHorimetro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/horimetro"/>
-        
-        <EditText 
-            android:id="@+id/edPlataformaHorimetro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:hint="@string/plataforma_horimetro"/>
 
         <TextView
             android:id="@+id/tvFotoPlataforma"
@@ -91,18 +60,61 @@
             android:textAppearance="?android:attr/textAppearanceLarge" />
         
         <ImageView
-            android:id="@+id/ivPlataforma"
-            android:layout_width="431dp"
-            android:layout_height="212dp"
-            android:layout_gravity="center"
+            android:id="@+id/foto_plataforma"
+            android:layout_width="245dp"
+            android:layout_height="245dp"
+            android:layout_gravity="center_horizontal"
             android:contentDescription="@string/plataforma"
             android:src="@android:drawable/ic_menu_camera" />
+        
+        <TextView 
+            android:id="@+id/tvNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numero"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/plataforma_numero"/>
+
+         <TextView 
+            android:id="@+id/tvAF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/af"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaAF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/plataforma_af"/>
+
+       <TextView 
+            android:id="@+id/tvHorimetro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/horimetro"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <EditText 
+            android:id="@+id/edPlataformaHorimetro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/plataforma_horimetro"/>
         
         <TextView 
             android:id="@+id/tvDescricaoProblema"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/descricao_problema"/>
+            android:text="@string/descricao_problema"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
         
         <EditText 
             android:id="@+id/edPlataformaDescricaoProblema"
@@ -118,7 +130,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <ImageView
-            android:id="@+id/ivProblema"
+            android:id="@+id/foto_problema"
             android:layout_width="431dp"
             android:layout_height="212dp"
             android:layout_gravity="center"
@@ -129,7 +141,8 @@
             android:id="@+id/tvPlataformaCausaProblema"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/causa_problema"/>
+            android:text="@string/causa_problema"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
         
         <EditText 
             android:id="@+id/edPlataformaCausaProblema"
@@ -145,14 +158,15 @@
             android:textAppearance="?android:attr/textAppearanceLarge" />
         
         <ImageView
-            android:id="@+id/ivCausa"
+            android:id="@+id/foto_causa"
             android:layout_width="431dp"
             android:layout_height="212dp"
             android:layout_gravity="center"
             android:contentDescription="@string/plataforma"
             android:src="@android:drawable/ic_menu_camera" />
+
         <Button
-            android:id="@+id/bPlataformaADD"
+            android:id="@+id/sbSalvar"
             android:layout_width="362dp"
             android:layout_height="78dp"
             android:layout_gravity="center"
@@ -160,6 +174,10 @@
             android:text="@string/plataforma_add"
             android:textSize="30sp" />
         
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent" />
+         
     </LinearLayout>
-    
+
 </ScrollView>
