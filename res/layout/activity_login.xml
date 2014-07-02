@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="0dp"
+     android:layout_weight="0.93"
+     android:background="#ffffff"
+     android:padding="2dp" >
+
+      </RelativeLayout>
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="0px"
+          android:layout_weight="3.26"
+          android:background="#ffffff"
+          android:orientation="horizontal"
+          android:padding="10dp" >
+
+          <ImageView
+              android:id="@+id/imageView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:contentDescription="@string/app_name"
+              android:src="@drawable/imagem" />
+      </LinearLayout>
+
+  	<RelativeLayout
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="0dp"
+  	    android:layout_weight="0.69"
+  	    android:background="#ffffff"
+  	    android:padding="2dp" >
+
+      </RelativeLayout>  
+	<RelativeLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ffffff"
+	    android:padding="2dp" >
+        
+	     <TextView
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_centerHorizontal="true"
+	         android:text="@string/login"
+	         android:textSize="25sp" />
+	     
+    </RelativeLayout>  
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.22"
+        android:background="#ffffff"
+        android:padding="2dp" >
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:inputType="text"
+            android:hint="@string/login_usuario"
+            android:labelFor="@+id/usuario"
+            android:textSize="20sp" />
+        
+    </RelativeLayout>
+        	
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.71"
+        android:background="#ffffff"
+        android:padding="2dp" >
+
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_centerInParent="true"
+            android:inputType="textPassword"
+            android:hint="@string/login_senha"
+            android:labelFor="@+id/senha"
+            android:textSize="20sp" />
+        
+    </RelativeLayout>
+   
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.29"
+        android:background="#ffffff"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="10dp" 
+            android:baselineAligned="false" >
+
+            <LinearLayout
+                android:id="@+id/notapp"
+                android:orientation="horizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.52"
+                >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#F78800" >
+
+                
+                <Button
+                    android:id="@+id/supportStartButton"
+                    style="@android:style/Animation.Activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/iniciarManutencao"
+                    android:textColor="@android:color/background_dark"
+                    android:textColorHint="@android:color/holo_blue_dark"
+                    android:textSize="30sp" 
+                    android:onClick="entrarOnClick"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.54"
+                android:background="#ffffff" >
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.71"
+        android:background="#ffffff"
+        android:padding="2dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff"
+            android:padding="2dp" >
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

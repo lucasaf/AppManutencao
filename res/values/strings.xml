@@ -95,5 +95,9 @@
 	<string	name="client_label_city">Cidade</string>
 	<string	name="client_label_state">Estado</string>
 	<string	name="client_label_distance">Distância</string>
-
+	
+	<!-- Login -->
+	<string name="login">Informe seus dados cadastraris</string>
+	<string name="login_usuario">Usuário</string>
+	<string name="login_senha">Senha</string>
 </resources>
