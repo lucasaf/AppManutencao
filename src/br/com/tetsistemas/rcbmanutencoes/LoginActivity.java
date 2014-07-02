@@ -1,6 +1,6 @@
 package br.com.tetsistemas.rcbmanutencoes;
 
-import br.com.cursoandroid.cadastroaluno.R;
+import br.com.tetsistemas.rcbmanutencoes.gen.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

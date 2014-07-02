@@ -13,8 +13,8 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import br.com.cursoandroid.cadastroaluno.R;
 import br.com.tetsistemas.rcbmanutencoes.ProvasActivity;
+import br.com.tetsistemas.rcbmanutencoes.gen.R;
 import br.com.tetsistemas.rcbmanutencoes.modelo.bean.Prova;
 
 public class ListaProvasFragment extends Fragment {

@@ -7,7 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.telephony.SmsMessage;
 import android.widget.Toast;
-import br.com.cursoandroid.cadastroaluno.R;
+import br.com.tetsistemas.rcbmanutencoes.gen.R;
 import br.com.tetsistemas.rcbmanutencoes.modelo.dao.ManutencaoDAO;
 
 public class SMSReceiver extends BroadcastReceiver {

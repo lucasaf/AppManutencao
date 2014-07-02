@@ -12,7 +12,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import br.com.cursoandroid.cadastroaluno.R;
+import br.com.tetsistemas.rcbmanutencoes.gen.R;
 import br.com.tetsistemas.rcbmanutencoes.helper.FormularioHelper;
 import br.com.tetsistemas.rcbmanutencoes.modelo.bean.Manutencao;
 import br.com.tetsistemas.rcbmanutencoes.modelo.dao.ManutencaoDAO;

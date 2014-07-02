@@ -3,9 +3,9 @@ package br.com.tetsistemas.rcbmanutencoes;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
-import br.com.cursoandroid.cadastroaluno.R;
 import br.com.tetsistemas.rcbmanutencoes.fragment.DetalhesProvaFragment;
 import br.com.tetsistemas.rcbmanutencoes.fragment.ListaProvasFragment;
+import br.com.tetsistemas.rcbmanutencoes.gen.R;
 import br.com.tetsistemas.rcbmanutencoes.modelo.bean.Prova;
 
 public class ProvasActivity extends FragmentActivity {

@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import br.com.cursoandroid.cadastroaluno.R;
+import br.com.tetsistemas.rcbmanutencoes.gen.R;
 import br.com.tetsistemas.rcbmanutencoes.modelo.bean.Prova;
 
 public class DetalhesProvaFragment extends Fragment {

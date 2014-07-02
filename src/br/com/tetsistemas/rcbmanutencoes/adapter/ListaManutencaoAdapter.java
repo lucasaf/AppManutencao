@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import br.com.cursoandroid.cadastroaluno.R;
+import br.com.tetsistemas.rcbmanutencoes.gen.R;
 import br.com.tetsistemas.rcbmanutencoes.modelo.bean.Manutencao;
 
 public class ListaManutencaoAdapter extends BaseAdapter {

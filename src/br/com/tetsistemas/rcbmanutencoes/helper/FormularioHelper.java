@@ -4,8 +4,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.widget.EditText;
 import android.widget.ImageView;
-import br.com.cursoandroid.cadastroaluno.R;
 import br.com.tetsistemas.rcbmanutencoes.ManutencaoActivity;
+import br.com.tetsistemas.rcbmanutencoes.gen.R;
 import br.com.tetsistemas.rcbmanutencoes.modelo.bean.Manutencao;
 
 /**

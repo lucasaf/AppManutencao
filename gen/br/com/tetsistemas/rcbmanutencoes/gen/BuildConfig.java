@@ -1,5 +1,5 @@
 /** Automatically generated file. DO NOT MODIFY */
-package br.com.cursoandroid.cadastroaluno;
+package br.com.tetsistemas.rcbmanutencoes.gen;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;
