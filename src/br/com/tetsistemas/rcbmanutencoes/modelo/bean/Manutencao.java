@@ -18,12 +18,18 @@ public class Manutencao implements Serializable{
 	private String causa_problema;
 	private String foto_causa;
 	
+	//Variaveis para a solução da manutenção
+	private String descricao_peca;
+	private String numero_peca;
+	private String quantidade;
+	private String tipo;
+	
+	
 	@Override
 	public String toString() {
 		return nome;
 	}
 	
-	//Metodos de get e set aqui...
 	public Long getId() {
 		return id;
 	}
@@ -111,4 +117,36 @@ public class Manutencao implements Serializable{
 	public void setFoto_causa(String foto_causa) {
 		this.foto_causa = foto_causa;
 	}
+	public String getDescricao_peca() {
+		return descricao_peca;
+	}
+
+	public void setDescricao_peca(String descricao_peca) {
+		this.descricao_peca = descricao_peca;
+	}
+
+	public String getNumero_peca() {
+		return numero_peca;
+	}
+
+	public void setNumero_peca(String numero_peca) {
+		this.numero_peca = numero_peca;
+	}
+
+	public String getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(String quantidade) {
+		this.quantidade = quantidade;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
 }

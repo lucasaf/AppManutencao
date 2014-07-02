@@ -53,6 +53,7 @@
     <string name="menu">Menu Principal</string>
     <string name="iniciarManutencao">Iniciar Manutenção</string>
     <string name="minhasManutencoes">Manutenções realizadas</string>
+    <string name="solucaoManutencao">Solução da Manutenção</string>
     <string name="configuracoes">Configurações</string>
     
     <!-- PÁGINA DE MANUTENÇÃO (activity_manutencao)-->
@@ -69,6 +70,10 @@
     <string name="plataforma_imagem_problema">Imagem do problema</string>
     <string name="plataforma_causa_problema">Causa do problema</string>
     <string name="plataforma_imagem_causa">Imagem da causa problema</string>
+    <string name="plataforma_descricao_peca">Descrição da peça</string>
+    <string name="plataforma_numero_peca">Número da peça</string>
+    <string name="plataforma_quantidade">Quantidade</string>
+    <string name="plataforma_tipo">tipo</string>
     
     <string name="nome">Nome</string>
     <string name="descricao">Descrição</string>
@@ -80,6 +85,10 @@
     <string name="foto_causa">Foto da causa do problema</string>
     <string name="descricao_problema">Descrição do problema</string>
     <string name="causa_problema">Descrição da causa do problema</string>
+    <string name="descricao_peca">Descrição da peca</string>
+    <string name="numero_peca">Número da peca</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="tipo">Tipo</string>
     
     <!-- CLIENT_MAIN -->    
 	<string name="client_label_page">Cadastro de Cliente</string>

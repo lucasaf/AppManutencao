@@ -42,7 +42,8 @@ public class ManutencaoDAO extends SQLiteOpenHelper {
 		String ddl = "CREATE TABLE " + TABELA + "( " 
 				+ "id INTEGER PRIMARY KEY, " 
 				+ "nome TEXT, descricao TEXT, numero TEXT, af TEXT, horimetro TEXT, foto_plataforma TEXT, descricao_problema TEXT, "
-				+ "foto_problema TEXT, causa_problema TEXT, foto_causa TEXT)";
+				+ "foto_problema TEXT, causa_problema TEXT, foto_causa TEXT, descricao_peca TEXT, numero_peca TEXT, "
+				+ "quantidade TEXT, tipo TEXT)";
 		database.execSQL(ddl);
 		Log.i(TAG, "Tabela criada: " + TABELA);
 	}
@@ -88,7 +89,12 @@ public class ManutencaoDAO extends SQLiteOpenHelper {
 		values.put("foto_problema", manutencao.getFoto_problema());
 		values.put("causa_problema", manutencao.getCausa_problema());
 		values.put("foto_causa", manutencao.getFoto_causa());
-
+		// Solução da manutenção
+		values.put("descricao_peca", manutencao.getDescricao_peca());
+		values.put("numero_peca", manutencao.getNumero_peca());
+		values.put("quantidade", manutencao.getQuantidade());
+		values.put("tipo", manutencao.getTipo());
+		
 		// Inserir dados do Manutencao no BD
 		getWritableDatabase().insert(TABELA, null, values);
 		Log.i(TAG, "Manutencao cadastrada." + manutencao.getNome());
@@ -107,7 +113,12 @@ public class ManutencaoDAO extends SQLiteOpenHelper {
 		values.put("foto_problema", manutencao.getFoto_problema());
 		values.put("causa_problema", manutencao.getCausa_problema());
 		values.put("foto_causa", manutencao.getFoto_causa());
-
+		// Solução da manutenção
+		values.put("descricao_peca", manutencao.getDescricao_peca());
+		values.put("numero_peca", manutencao.getNumero_peca());
+		values.put("quantidade", manutencao.getQuantidade());
+		values.put("tipo", manutencao.getTipo());
+		
 		// Colecao de valores de parametros do SQL
 		String[] args = { manutencao.getId().toString() };
 
@@ -142,6 +153,11 @@ public class ManutencaoDAO extends SQLiteOpenHelper {
 				manutencao.setFoto_problema(cursor.getString(8));
 				manutencao.setCausa_problema(cursor.getString(9));
 				manutencao.setFoto_causa(cursor.getString(10));
+				// Solução da manutenção
+				manutencao.setDescricao_peca(cursor.getString(11));
+				manutencao.setNumero_peca(cursor.getString(12));
+				manutencao.setQuantidade(cursor.getString(13));
+				manutencao.setTipo(cursor.getString(14));
 				// Adicionar nova Manutencao a lista
 				lista.add(manutencao);
 			}

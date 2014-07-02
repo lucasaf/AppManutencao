@@ -25,6 +25,12 @@ public class FormularioHelper {
 	private EditText causa_problema;
 	//private ImageView foto_causa;
 	
+	// Variaveis para a solução da manutenção
+	private EditText descricao_peca;
+	private EditText numero_peca;
+	private EditText quantidade;
+	private EditText tipo;
+	
 	private Manutencao manutencao;
 
 	// Continua...
@@ -48,7 +54,12 @@ public class FormularioHelper {
 		//foto_problema = (ImageView) activity.findViewById(R.id.foto_problema);
 		causa_problema = (EditText) activity.findViewById(R.id.edPlataformaCausaProblema);
 		//foto_causa = (ImageView) activity.findViewById(R.id.foto_causa);
-
+		// Solução  da manutencao
+		descricao_peca = (EditText) activity.findViewById(R.id.edPlataformaDescricaoPeca);
+		numero_peca = (EditText) activity.findViewById(R.id.edPlataformaNumeroPeca);
+		quantidade = (EditText) activity.findViewById(R.id.edPlataformaQuantidade);
+		tipo = (EditText) activity.findViewById(R.id.edPlataformaTipo);
+		
 		// Criacao do objeto Aluno
 		manutencao = new Manutencao();
 	}
@@ -63,13 +74,10 @@ public class FormularioHelper {
 		
 		// Carregar arquivo de imagem
 		Bitmap imagemFoto = BitmapFactory.decodeFile(localFoto);
-		
 		// Gerar imagem reduzida
 		Bitmap imagemFotoReduzida = Bitmap.createScaledBitmap(imagemFoto, 100, 100, true);
-		
 		// Guarda o caminho da foto do aluno
 		manutencao.setFoto_plataforma(localFoto);
-		
 		// Atualiza a imagem exibida na tela de formulÃ¡rio
 		foto_plataforma.setImageBitmap(imagemFotoReduzida);
 	}
@@ -88,6 +96,10 @@ public class FormularioHelper {
 		manutencao.setHorimetro(horimetro.getText().toString());
 		manutencao.setDescricao_problema(descricao_problema.getText().toString());
 		manutencao.setCausa_problema(causa_problema.getText().toString());
+		manutencao.setDescricao_peca(descricao_peca.getText().toString());
+		manutencao.setNumero_peca(numero_peca.getText().toString());
+		manutencao.setQuantidade(quantidade.getText().toString());
+		manutencao.setTipo(tipo.getText().toString());
 		
 		return manutencao;
 	}
@@ -106,6 +118,10 @@ public void setManutencao(Manutencao manutencao) {
 		horimetro.setText(manutencao.getHorimetro());
 		descricao_problema.setText(manutencao.getDescricao_problema());
 		causa_problema.setText(manutencao.getCausa_problema());
+		descricao_peca.setText(manutencao.getDescricao_peca());
+		numero_peca.setText(manutencao.getNumero_peca());
+		quantidade.setText(manutencao.getQuantidade());
+		tipo.setText(manutencao.getTipo());
 		this.manutencao = manutencao;
 		// Carregar foto da manutencao
 		if (manutencao.getFoto_plataforma() != null) {

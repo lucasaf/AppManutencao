@@ -42,17 +42,21 @@ public final class R {
         public static final int logo=0x7f02000a;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b0025;
-        public static final int detalhe_prova_data=0x7f0b0021;
-        public static final int detalhe_prova_materia=0x7f0b0020;
-        public static final int detalhe_prova_topicos=0x7f0b0022;
+        public static final int action_settings=0x7f0b002e;
+        public static final int detalhe_prova_data=0x7f0b002a;
+        public static final int detalhe_prova_materia=0x7f0b0029;
+        public static final int detalhe_prova_topicos=0x7f0b002b;
         public static final int edPlataformaAF=0x7f0b0013;
         public static final int edPlataformaCausaProblema=0x7f0b001b;
         public static final int edPlataformaDescricao=0x7f0b000e;
+        public static final int edPlataformaDescricaoPeca=0x7f0b0020;
         public static final int edPlataformaDescricaoProblema=0x7f0b0017;
         public static final int edPlataformaHorimetro=0x7f0b0015;
         public static final int edPlataformaNome=0x7f0b000c;
         public static final int edPlataformaNumero=0x7f0b0011;
+        public static final int edPlataformaNumeroPeca=0x7f0b0022;
+        public static final int edPlataformaQuantidade=0x7f0b0024;
+        public static final int edPlataformaTipo=0x7f0b0026;
         public static final int foto_causa=0x7f0b001d;
         public static final int foto_plataforma=0x7f0b0000;
         public static final int foto_problema=0x7f0b0019;
@@ -61,26 +65,28 @@ public final class R {
         public static final int itemFoto=0x7f0b0002;
         public static final int itemNome=0x7f0b0001;
         public static final int itemTelefone=0x7f0b0003;
-        public static final int listaprovas=0x7f0b001f;
+        public static final int listaprovas=0x7f0b0028;
         public static final int lvListagem=0x7f0b0005;
-        public static final int menuAcharNoMapa=0x7f0b0028;
-        public static final int menuDeletar=0x7f0b002a;
-        public static final int menuEnviarEmail=0x7f0b0029;
-        public static final int menuEnviarSMS=0x7f0b0027;
-        public static final int menuLigar=0x7f0b0026;
-        public static final int menu_enviar_alunos=0x7f0b002d;
-        public static final int menu_mapa=0x7f0b002c;
-        public static final int menu_novo=0x7f0b002b;
-        public static final int menu_preferencias=0x7f0b002f;
-        public static final int menu_receber_provas=0x7f0b002e;
+        public static final int menuAcharNoMapa=0x7f0b0031;
+        public static final int menuDeletar=0x7f0b0033;
+        public static final int menuEnviarEmail=0x7f0b0032;
+        public static final int menuEnviarSMS=0x7f0b0030;
+        public static final int menuLigar=0x7f0b002f;
+        public static final int menu_enviar_alunos=0x7f0b0036;
+        public static final int menu_mapa=0x7f0b0035;
+        public static final int menu_novo=0x7f0b0034;
+        public static final int menu_preferencias=0x7f0b0038;
+        public static final int menu_receber_provas=0x7f0b0037;
         public static final int notapp=0x7f0b0009;
-        public static final int provas_lista=0x7f0b0024;
-        public static final int provas_view=0x7f0b0023;
-        public static final int sbSalvar=0x7f0b001e;
+        public static final int progressBar1=0x7f0b001e;
+        public static final int provas_lista=0x7f0b002d;
+        public static final int provas_view=0x7f0b002c;
+        public static final int sbSalvar=0x7f0b0027;
         public static final int senha=0x7f0b0008;
         public static final int supportStartButton=0x7f0b000a;
         public static final int tvAF=0x7f0b0012;
         public static final int tvDescricao=0x7f0b000d;
+        public static final int tvDescricaoPeca=0x7f0b001f;
         public static final int tvDescricaoProblema=0x7f0b0016;
         public static final int tvFotoCausa=0x7f0b001c;
         public static final int tvFotoPlataforma=0x7f0b000f;
@@ -88,7 +94,10 @@ public final class R {
         public static final int tvHorimetro=0x7f0b0014;
         public static final int tvNome=0x7f0b000b;
         public static final int tvNumero=0x7f0b0010;
+        public static final int tvNumeroPeca=0x7f0b0021;
         public static final int tvPlataformaCausaProblema=0x7f0b001a;
+        public static final int tvQuantidade=0x7f0b0023;
+        public static final int tvTipo=0x7f0b0025;
         public static final int usuario=0x7f0b0007;
     }
     public static final class layout {
@@ -117,31 +126,32 @@ public final class R {
          */
         public static final int action_settings=0x7f08001a;
         public static final int add_aluno=0x7f080008;
-        public static final int af=0x7f080039;
+        public static final int af=0x7f08003e;
         /**  Nome da APP, usado pelo AndroidManifest 
          */
         public static final int app_name=0x7f080000;
-        public static final int causa_problema=0x7f08003f;
-        public static final int client_label_address=0x7f080045;
-        public static final int client_label_cep=0x7f080048;
-        public static final int client_label_city=0x7f08004a;
-        public static final int client_label_client=0x7f080041;
-        public static final int client_label_complement=0x7f080049;
-        public static final int client_label_distance=0x7f08004c;
-        public static final int client_label_district=0x7f080047;
-        public static final int client_label_email=0x7f080044;
-        public static final int client_label_name=0x7f080042;
-        public static final int client_label_number=0x7f080046;
+        public static final int causa_problema=0x7f080044;
+        public static final int client_label_address=0x7f08004e;
+        public static final int client_label_cep=0x7f080051;
+        public static final int client_label_city=0x7f080053;
+        public static final int client_label_client=0x7f08004a;
+        public static final int client_label_complement=0x7f080052;
+        public static final int client_label_distance=0x7f080055;
+        public static final int client_label_district=0x7f080050;
+        public static final int client_label_email=0x7f08004d;
+        public static final int client_label_name=0x7f08004b;
+        public static final int client_label_number=0x7f08004f;
         /**  CLIENT_MAIN 
          */
-        public static final int client_label_page=0x7f080040;
-        public static final int client_label_phone=0x7f080043;
-        public static final int client_label_state=0x7f08004b;
-        public static final int configuracoes=0x7f080028;
+        public static final int client_label_page=0x7f080049;
+        public static final int client_label_phone=0x7f08004c;
+        public static final int client_label_state=0x7f080054;
+        public static final int configuracoes=0x7f080029;
         public static final int data=0x7f080019;
         public static final int deletar=0x7f080020;
-        public static final int descricao=0x7f080037;
-        public static final int descricao_problema=0x7f08003e;
+        public static final int descricao=0x7f08003c;
+        public static final int descricao_peca=0x7f080045;
+        public static final int descricao_problema=0x7f080043;
         public static final int detalhes_prova=0x7f080017;
         public static final int email=0x7f08000f;
         public static final int email_hint=0x7f080010;
@@ -151,17 +161,17 @@ public final class R {
         public static final int enviarSMS=0x7f08001d;
         public static final int erro_autenticacao=0x7f080024;
         public static final int foto_aluno=0x7f08000a;
-        public static final int foto_causa=0x7f08003d;
-        public static final int foto_plataforma=0x7f08003b;
-        public static final int foto_problema=0x7f08003c;
-        public static final int horimetro=0x7f08003a;
+        public static final int foto_causa=0x7f080042;
+        public static final int foto_plataforma=0x7f080040;
+        public static final int foto_problema=0x7f080041;
+        public static final int horimetro=0x7f08003f;
         public static final int iniciarManutencao=0x7f080026;
         public static final int ligar=0x7f080015;
         /**  Login 
          */
-        public static final int login=0x7f08004d;
-        public static final int login_senha=0x7f08004f;
-        public static final int login_usuario=0x7f08004e;
+        public static final int login=0x7f080056;
+        public static final int login_senha=0x7f080058;
+        public static final int login_usuario=0x7f080057;
         public static final int mais_opcoes=0x7f080003;
         /**   PÁGINA PRINCIPAL (activity_main) 
          */
@@ -172,38 +182,46 @@ public final class R {
          */
         public static final int menu=0x7f080025;
         public static final int minhasManutencoes=0x7f080027;
-        public static final int nome=0x7f080036;
+        public static final int nome=0x7f08003b;
         public static final int nome_aluno=0x7f080007;
         public static final int nota=0x7f080013;
         /**  Strings para itens do menu 
          */
         public static final int novo=0x7f080001;
-        public static final int numero=0x7f080038;
-        public static final int plataforma=0x7f08002b;
+        public static final int numero=0x7f08003d;
+        public static final int numero_peca=0x7f080046;
+        public static final int plataforma=0x7f08002c;
         /**  PÁGINA DE MANUTENÇÃO (activity_manutencao)
          */
-        public static final int plataforma_add=0x7f080029;
-        public static final int plataforma_af=0x7f08002f;
-        public static final int plataforma_causa_problema=0x7f080034;
-        public static final int plataforma_descricao=0x7f08002d;
-        public static final int plataforma_descricao_problema=0x7f080031;
-        public static final int plataforma_horimetro=0x7f080030;
-        public static final int plataforma_imagem=0x7f080032;
-        public static final int plataforma_imagem_causa=0x7f080035;
-        public static final int plataforma_imagem_problema=0x7f080033;
-        public static final int plataforma_nome=0x7f08002c;
-        public static final int plataforma_numero=0x7f08002e;
-        public static final int plataforma_tirar_foto=0x7f08002a;
+        public static final int plataforma_add=0x7f08002a;
+        public static final int plataforma_af=0x7f080030;
+        public static final int plataforma_causa_problema=0x7f080035;
+        public static final int plataforma_descricao=0x7f08002e;
+        public static final int plataforma_descricao_peca=0x7f080037;
+        public static final int plataforma_descricao_problema=0x7f080032;
+        public static final int plataforma_horimetro=0x7f080031;
+        public static final int plataforma_imagem=0x7f080033;
+        public static final int plataforma_imagem_causa=0x7f080036;
+        public static final int plataforma_imagem_problema=0x7f080034;
+        public static final int plataforma_nome=0x7f08002d;
+        public static final int plataforma_numero=0x7f08002f;
+        public static final int plataforma_numero_peca=0x7f080038;
+        public static final int plataforma_quantidade=0x7f080039;
+        public static final int plataforma_tipo=0x7f08003a;
+        public static final int plataforma_tirar_foto=0x7f08002b;
         public static final int preferencias=0x7f080006;
         public static final int provas=0x7f080005;
+        public static final int quantidade=0x7f080047;
         public static final int salvar_dados=0x7f080014;
         public static final int senha=0x7f080023;
         public static final int sincronizar=0x7f080004;
         public static final int site=0x7f08000d;
         public static final int site_hint=0x7f08000e;
+        public static final int solucaoManutencao=0x7f080028;
         public static final int telefone=0x7f08000b;
         public static final int telefone_hint=0x7f08000c;
         public static final int tet_sistemas=0x7f08001b;
+        public static final int tipo=0x7f080048;
         public static final int titulo_formulario=0x7f080009;
         /**  Outras strings aqui... 
  Strings da tela de Detalhes da Prova 
